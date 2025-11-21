@@ -3,7 +3,7 @@
 Author: Ava Robillard
 
 ### About
-This repository contains a notebook `hwk4-task2-false-color-ROBILLARD.ipynb` outlining a workflow to create a map showing a [shortwave infrared/near-infrared/red false color image](https://earthobservatory.nasa.gov/features/FalseColor) using Landsat remote sensing data. The image is used along with fire perimeter polygons to highlight the locations of the Palisades Fire and Eaton Fire in Los Angeles County, California that occurred in early January 2025.
+This repository contains a notebook `hwk4-task2-false-color-ROBILLARD.ipynb` outlining a workflow to create a map showing a [shortwave infrared/near-infrared/red false color image](https://earthobservatory.nasa.gov/features/FalseColor) that highlights the locations and visible scars of the Palisades Fire and Eaton Fire in Los Angeles County, California that occurred in early January 2025 using Landsat remote sensing data and fire perimeter polygons.
 
 The final false color image map created is located in the `images\` directory. 
 
@@ -38,7 +38,7 @@ This assignment was created as a part of EDS 220: Working with Environmental Dat
 
 City of Los Angeles. (2025). Palisades and Eaton Dissolved Fire Perimeters (2025) [GIS shapefiles]. Los Angeles GeoHub. Retrieved November 20, 2025, from https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
 
-Microsoft Planetary Computer. (n.d.). Landsat Collection 2 Level‑2 [Dataset]. Microsoft. Retrieved November 20, 2025, from https://planetarycomputer.microsoft.com/dataset/landsat‑c2‑l2
+Microsoft Planetary Computer. (n.d.). Landsat Collection 2 Level‑2 [Dataset]. Microsoft. Retrieved November 20, 2025, from https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
 
 **Images and articles**
 
