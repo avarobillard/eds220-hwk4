@@ -3,9 +3,11 @@
 Author: Ava Robillard
 
 ### About
-This repository contains a notebook `hwk4-task2-false-color-ROBILLARD.ipynb` outlining a workflow to create a map showing a [shortwave infrared/near-infrared/red false color image](https://earthobservatory.nasa.gov/features/FalseColor) that highlights the locations and visible scars of the Palisades Fire and Eaton Fire in Los Angeles County, California that occurred in early January 2025 using Landsat remote sensing data and fire perimeter polygons.
+This repository contains a notebook `false-color.ipynb` outlining a workflow to create a map showing a [shortwave infrared/near-infrared/red false color image](https://earthobservatory.nasa.gov/features/FalseColor) that highlights the locations and visible scars of the Palisades Fire and Eaton Fire in Los Angeles County, California that occurred in early January 2025 using Landsat remote sensing data and fire perimeter polygons.
 
 The final false color image map created is located in the `images\` directory. 
+
+This repository contains an additonal notebook `social-dimensions.ipynb` with an analysis of social vulnerability to wildfires using Environmental Justice Index data.
 
 ![Photos from the Palisades Fire that started in the City of Los Angeles, January 2025.](images/fire.jpg)
 Photos from the Palisades Fire that started in the City of Los Angeles, January 2025.
@@ -18,17 +20,19 @@ Photos from the Palisades Fire that started in the City of Los Angeles, January 
 
 ### Repository structure
 ```
-eds220-hwk4
+eaton-palisades-fires-analysis
 ├── README.md
-├── hwk4-task2-false-color-ROBILLARD.ipynb # Jupyter notebook for analysis
-└── images
-    ├── falsecolorfires.png  # Final false color map
-    └── fire.jpg             # Image used in README
+├── false-color.ipynb            # Jupyter notebook for false color analysis
+├── images
+│   ├── falsecolorfires.png
+│   ├── fire.jpg
+│   └── fire_perimeters_map.png
+└── social-dimensions.ipynb     # Jupyter notebook for social dimensions analysis
 ```
 
 ### Data
 
-The data for this analysis is not housed in this repository. It was downloaded into a local `data/` folder listed in the `.gitignore` from the City of Los Angeles and Microsoft Planetary Computer, referenced below. 
+The data for this analysis is not housed in this repository. It was downloaded into a local `data/` folder listed in the `.gitignore` from the City of Los Angeles, Microsoft Planetary Computer, and the CDC referenced below. 
 
 ### References
 
@@ -39,6 +43,8 @@ This assignment was created as a part of EDS 220: Working with Environmental Dat
 City of Los Angeles. (2025). Palisades and Eaton Dissolved Fire Perimeters (2025) [GIS shapefiles]. Los Angeles GeoHub. Retrieved November 20, 2025, from https://geohub.lacity.org/maps/ad51845ea5fb4eb483bc2a7c38b2370c/about
 
 Microsoft Planetary Computer. (n.d.). Landsat Collection 2 Level‑2 [Dataset]. Microsoft. Retrieved November 20, 2025, from https://planetarycomputer.microsoft.com/dataset/landsat-c2-l2
+
+Centers for Disease Control and Prevention and Agency for Toxic Substances and Disease Registry. (2024). Environmental Justice Index. [Dataset] CDC; ATSDR. Retrieved December 2, 2025, from https://atsdr.cdc.gov/place-health/php/eji/eji-data-download.html 
 
 **Images and articles**
 
